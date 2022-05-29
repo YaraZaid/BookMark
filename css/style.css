@@ -1,0 +1,164 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@font-face {
+  font-family: Rubik-Regular;
+  src: url('../fonts/Rubik-Regular.ttf');
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url('../fonts/Rubik-Medium.ttf');
+}
+.container {
+  padding: 80px;
+}
+.links {
+  word-spacing: 30px;
+  font-family: Rubik-Regular;
+  color: #fa5959;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 20px;
+}
+.but1 {
+  background-color: #fa5959;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+}
+.top {
+  display: flex;
+}
+.manager {
+  font-family: Rubik-Medium;
+  color: #242a45;
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.try {
+  font-family: Rubik-Regular;
+  color: #9194a2;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.but2 .chrome {
+  padding: 9px;
+  background-color: #5267df;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: Rubik-Medium;
+}
+.but2 .firefox {
+  padding: 9px;
+  background-color: whitesmoke;
+  color: #242a45;
+  border: none;
+  border-radius: 8px;
+  font-family: Rubik-Medium;
+}
+.screen {
+  margin-top: 20px;
+}
+.the-positive-of-bookmark {
+  margin: 50px;
+}
+.the-positive-of-bookmark .the-head {
+  font-family: Rubik-Medium;
+  color: #242a45;
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.the-positive-of-bookmark .description {
+  font-family: Rubik-Regular;
+  color: #9194a2;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.description-of-bookmark {
+  display: flex;
+  margin-top: 80px;
+}
+.extra-info {
+  padding: 15px;
+  background-color: #5267df;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: Rubik-Medium;
+}
+.container .download {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+.extensions {
+  display: flex;
+  justify-content: space-between;
+}
+.adding {
+  font-family: Rubik-Medium;
+  color: #242a45;
+  padding: 15px;
+}
+.version {
+  font-family: Rubik-Regular;
+  color: #9194a2;
+  padding: 15px;
+}
+.extensions .chrome {
+  border-radius: 8px;
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 50px;
+  line-height: 20px;
+}
+.extensions .firefox {
+  border-radius: 8px;
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 50px;
+  line-height: 20px;
+}
+.extensions .opera {
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 50px;
+  line-height: 20px;
+  border-radius: 8px;
+}
+.add-extension {
+  background-color: #5267df;
+  color: white;
+  font-family: Rubik-Medium;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  width: 100%;
+}
+.my-name {
+  background-color: #242a45;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  font-family: Rubik-Medium;
+  height: 50px;
+  text-align: center;
+}
